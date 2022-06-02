@@ -48,76 +48,76 @@ public class final1_2 : MonoBehaviour
 		ParkerOut(true);
 		MandyOut(true);
 
-		//AudioManager.instance.PlaySong(music[0], 0.3f, 1f, 0.0f, true, true);
+		AudioManager.instance.PlaySong(music[0], 0.3f, 1f, 0.0f, true, true);
 	}
 
 	public string[] s = new string[]
 	{
-		"It seems like this is the right place, room 109. Some people have already started playing their instruments too… and others are talking. It sounds lively, at least.:(You)",
-		"Hey guys! It’s me, Mandy. How are you all? I know that some of you guys have started playing and talking already, but I’d like to give a quick overview.:Mandy:Happy",
-		"I know we’re all here to meet and play our hearts out with other people, but don’t forget that we’re also here to get better at our expertises.:Mandy:Neutral",
+		"It seems like this is the right place, room 109. Some people have already started playing their instruments tooï¿½ and others are talking. It sounds lively, at least.:(You)",
+		"Hey guys! Itï¿½s me, Mandy. How are you all? I know that some of you guys have started playing and talking already, but Iï¿½d like to give a quick overview.:Mandy:Happy",
+		"I know weï¿½re all here to meet and play our hearts out with other people, but donï¿½t forget that weï¿½re also here to get better at our expertises.:Mandy:Neutral",
 		"We have basically every single instrument that you guys excel at, so go wild and learn from one another too! Just keep our instruments safe. There are also music sheets if you guys need them, but we encourage original creations!:Mandy:Neutral",
-		"I’ll be here to moderate and make sure that everything’s going well- if you guys have any questions, just let me know! Otherwise, go have fun, everyone!:Mandy:Neutral",
-			"This is so awkward. I wish I could move the pianos somewhere- hopefully nobody notices. I’ll just wait until tomorrow to socialize if I have to.:(You):ExitMandy",
-		"Those scales weren’t too sloppy, but I haven’t practiced my octaves in a while. I wonder if they have any available music sheets for me to practice with…:(You)",
-		"The protagonist looks around the room to see whether or not there are any free music sheets, poking and prodding around. They don’t find any sheets that pique their interest.:Narrator",
-			"Well, it doesn’t seem like there’s much to see here. It’s a bit of everything, but it’s not even a bit of what I want. Seems like I should just play randomly and see where it goes…:(You)",
-		"Huh? Hold on–:(You):EnterParkerNeutral",
-		"Is that Parker? I feel like I’ve seen that face before, but Parker has always been popular and talented. Could just be someone else entirely too.:(You)",
-		"The protagonist continues with their random piano playing, though they eventually resort to practicing again–essentially at a creative block now.:Narrator:ExitParker",
-		"Well, that’s some time gone to nothing. I doubt I could just make anything on the fly right now–especially when I can’t get their face out of my head.:(You)",
-		"But it’s not like I’m entirely sure it’s Parker. Besides, it’s not as if we were even close back then too.:(You)",
-		"Then again, it would be nice to know someone—anyone—here, though…:(you)",
-		"Either way, I guess it’s time to get started on anything I can make. Four days isn’t really a lot of time–:(you)",
-		"Um, e- excuse me? Sorry, I thought I recognized you from somewhere…:?:Neutral",
+		"Iï¿½ll be here to moderate and make sure that everythingï¿½s going well- if you guys have any questions, just let me know! Otherwise, go have fun, everyone!:Mandy:Neutral",
+			"This is so awkward. I wish I could move the pianos somewhere- hopefully nobody notices. Iï¿½ll just wait until tomorrow to socialize if I have to.:(You):ExitMandy",
+		"Those scales werenï¿½t too sloppy, but I havenï¿½t practiced my octaves in a while. I wonder if they have any available music sheets for me to practice withï¿½:(You)",
+		"The protagonist looks around the room to see whether or not there are any free music sheets, poking and prodding around. They donï¿½t find any sheets that pique their interest.:Narrator",
+			"Well, it doesnï¿½t seem like thereï¿½s much to see here. Itï¿½s a bit of everything, but itï¿½s not even a bit of what I want. Seems like I should just play randomly and see where it goesï¿½:(You)",
+		"Huh? Hold onï¿½:(You):EnterParkerNeutral",
+		"Is that Parker? I feel like Iï¿½ve seen that face before, but Parker has always been popular and talented. Could just be someone else entirely too.:(You)",
+		"The protagonist continues with their random piano playing, though they eventually resort to practicing againï¿½essentially at a creative block now.:Narrator:ExitParker",
+		"Well, thatï¿½s some time gone to nothing. I doubt I could just make anything on the fly right nowï¿½especially when I canï¿½t get their face out of my head.:(You)",
+		"But itï¿½s not like Iï¿½m entirely sure itï¿½s Parker. Besides, itï¿½s not as if we were even close back then too.:(You)",
+		"Then again, it would be nice to know someoneï¿½anyoneï¿½here, thoughï¿½:(you)",
+		"Either way, I guess itï¿½s time to get started on anything I can make. Four days isnï¿½t really a lot of timeï¿½:(you)",
+		"Um, e- excuse me? Sorry, I thought I recognized you from somewhereï¿½:?:Neutral",
 		"That voice! It is Parker! But what are they doing here?:(you)",
-		"Oh yeah, hi! I thought you looked familiar too, to be honest. I wasn’t entirely sure though.:You",
-			"You’re (protagonist’s name), right? We went to high school together all those years ago. How’ve you been?:Parker:Happy",
-		"I’m surprised they even remember me… it’s not like we ever even talked back then. Maybe we’d exchange glances in a class or club, but we never said a word to each other.:(You):EnterParkerNeutral",
-		"Yeah, that’s me! I’m doing well, but honestly, I’m shocked you remember me—after all, we didn’t hang out all that much before.:You",
-		"Oh- uh, well, that’s true, but we had a lot of music classes together. I hope it isn’t too weird that I remember that—?:Parker:Sad",
+		"Oh yeah, hi! I thought you looked familiar too, to be honest. I wasnï¿½t entirely sure though.:You",
+			"Youï¿½re (protagonistï¿½s name), right? We went to high school together all those years ago. Howï¿½ve you been?:Parker:Happy",
+		"Iï¿½m surprised they even remember meï¿½ itï¿½s not like we ever even talked back then. Maybe weï¿½d exchange glances in a class or club, but we never said a word to each other.:(You):EnterParkerNeutral",
+		"Yeah, thatï¿½s me! Iï¿½m doing well, but honestly, Iï¿½m shocked you remember meï¿½after all, we didnï¿½t hang out all that much before.:You",
+		"Oh- uh, well, thatï¿½s true, but we had a lot of music classes together. I hope it isnï¿½t too weird that I remember thatï¿½?:Parker:Sad",
 			":You",
 			"That aside though, how have you been?:You:ParkerEnterNeutral",
 			"That aside though, how have you been?:You",
-		"I’ve been doing quite well, I guess… Things have just been so drastically different since high school. How have things gone on your end?:Parker:Neutral",
-		"I’ve been busy, I’ve just been working your normal 9-to-5, but I’ve been trying to hone my piano skills more. Maybe pick up some other instruments along the way, but I really want to be the best at the piano.:You",
-		"I’ve been playing for years, so I wonder just how far I can push myself, you know? What have you been up to, exactly?:You",
-		"Well, I can sort of relate with you, to be honest. I’ve been busy with my job, but I’ve been trying to compose music on the side. I’ve released some works online, but I’ve been a little quiet.:Parker:Neutral",
+		"Iï¿½ve been doing quite well, I guessï¿½ Things have just been so drastically different since high school. How have things gone on your end?:Parker:Neutral",
+		"Iï¿½ve been busy, Iï¿½ve just been working your normal 9-to-5, but Iï¿½ve been trying to hone my piano skills more. Maybe pick up some other instruments along the way, but I really want to be the best at the piano.:You",
+		"Iï¿½ve been playing for years, so I wonder just how far I can push myself, you know? What have you been up to, exactly?:You",
+		"Well, I can sort of relate with you, to be honest. Iï¿½ve been busy with my job, but Iï¿½ve been trying to compose music on the side. Iï¿½ve released some works online, but Iï¿½ve been a little quiet.:Parker:Neutral",
 			":You",
-			"No, I wish. I’ve missed some work, come late sometimes, or I just am not able to pump anything out. It can be difficult, but thanks.:Parker:Neutral",
-			"It’s a modest following- it really isn’t much. I sometimes wish I had more, but that isn’t my main priority.:Parker:Neutral",
-		"My songs aren’t all that special, but I’ve been trying my best. You can listen to one of them sometime if you’d like… just… just not here if that’s alright with you.:Parker:Sad",
-		"My Yubie channel’s “hope miser.” If you see anyone we know outside of this music camp though, please don’t tell them. I’m not exactly sure that people who aren’t really into more unconventional music will receive it kindly…:Parker:Neutral",
-		"Oh, no worries about that! I’ll listen later tonight when I’m back–I’m really excited to give your music a go! Do you have any recommendations?:You",
-		"Well, there’s “symphony of the brave” and “UNKN0WN.” I think those have received the most attention, but you should feel free to listen to anything you want– but, of course, there’s no pressure at all too!:Parker:Neutral",
+			"No, I wish. Iï¿½ve missed some work, come late sometimes, or I just am not able to pump anything out. It can be difficult, but thanks.:Parker:Neutral",
+			"Itï¿½s a modest following- it really isnï¿½t much. I sometimes wish I had more, but that isnï¿½t my main priority.:Parker:Neutral",
+		"My songs arenï¿½t all that special, but Iï¿½ve been trying my best. You can listen to one of them sometime if youï¿½d likeï¿½ justï¿½ just not here if thatï¿½s alright with you.:Parker:Sad",
+		"My Yubie channelï¿½s ï¿½hope miser.ï¿½ If you see anyone we know outside of this music camp though, please donï¿½t tell them. Iï¿½m not exactly sure that people who arenï¿½t really into more unconventional music will receive it kindlyï¿½:Parker:Neutral",
+		"Oh, no worries about that! Iï¿½ll listen later tonight when Iï¿½m backï¿½Iï¿½m really excited to give your music a go! Do you have any recommendations?:You",
+		"Well, thereï¿½s ï¿½symphony of the braveï¿½ and ï¿½UNKN0WN.ï¿½ I think those have received the most attention, but you should feel free to listen to anything you wantï¿½ but, of course, thereï¿½s no pressure at all too!:Parker:Neutral",
 			":You",
 			"That one was made when I had baroque and Holtz playing in the background all the time. I like to think that you can hear a full-blown adventure in it painted in an exuberant red.:Parker:Happy",
-			"I… I made that one just randomly. It was a fit of passion that I had around 5AM after having pulled an all-nighter and watching a sad romance film. It sounds like pitch black, like pure, pure black, to me.:Parker:Blush",
-		"Your inspirations sound really… organic— if that makes sense… Do you compose things regularly, or do you just make a new piece whenever you feel like it?:You:EnterParkerNeutral",
-		"I try to stick to a schedule–I do think that keeping myself on track would be healthy for me and maybe a stable music career in the future–but that’s just impossible right now. My job really isn’t enough to make me dedicate my hours to fixing my sleep schedule.:Parker:Neutral",
-		"It also sounds… stupid, really, but sometimes inspiration just strikes you at the worst times, you know? I’ve had some past ideas in the early, early morning that I never got to act upon or even note down, and I really regret that.:Parker:Neutral",
-		"I’ve had some similar experiences, honestly. It gets really tough when you think about it, but I’m sure that you’ve made some good pieces!:You",
-			"That- well, thanks… that means a lot. I guess you’ll be able to decide for yourself eventually though.:Parker:Blush",
-		"Well, I’m sure that I’ll be impressed no matter what. Composing’s tough, and to be able to make anything bearable to listen to is already amazing.:You",
-		"Do you have any previous experience? It sounds like you’re at least a little familiar–I know some musicians who just play notes and are somehow unaware about music theory and all, so I wouldn’t be surprised if you know at least some things.:Parker:Neutral	",
-		"Oh, well, I actually have some interest in composing, so I’ve dabbled a little but not to the extent that you have. Sometimes I just experiment with the piano, honestly.:You",
-		"Well, that’s always better than nothing! Do you only ever use your piano, or do you still sing? I know you used to sing a lot, and I honestly really liked your voice.:Parker:Neutral",
-		"Ah, thanks– but I don’t sing much anymore. I honestly stopped singing after high school since I’ve been pretty dedicated to mastering the piano.:You",
-		"That makes a lot of sense— I know the feeling. I think that all of us have run out of time at some point.:Parker:Neutral",
-		"D- Don’t let that get you down though! I know that you’ll be just fine.:Parker:Sad",
+			"Iï¿½ I made that one just randomly. It was a fit of passion that I had around 5AM after having pulled an all-nighter and watching a sad romance film. It sounds like pitch black, like pure, pure black, to me.:Parker:Blush",
+		"Your inspirations sound reallyï¿½ organicï¿½ if that makes senseï¿½ Do you compose things regularly, or do you just make a new piece whenever you feel like it?:You:EnterParkerNeutral",
+		"I try to stick to a scheduleï¿½I do think that keeping myself on track would be healthy for me and maybe a stable music career in the futureï¿½but thatï¿½s just impossible right now. My job really isnï¿½t enough to make me dedicate my hours to fixing my sleep schedule.:Parker:Neutral",
+		"It also soundsï¿½ stupid, really, but sometimes inspiration just strikes you at the worst times, you know? Iï¿½ve had some past ideas in the early, early morning that I never got to act upon or even note down, and I really regret that.:Parker:Neutral",
+		"Iï¿½ve had some similar experiences, honestly. It gets really tough when you think about it, but Iï¿½m sure that youï¿½ve made some good pieces!:You",
+			"That- well, thanksï¿½ that means a lot. I guess youï¿½ll be able to decide for yourself eventually though.:Parker:Blush",
+		"Well, Iï¿½m sure that Iï¿½ll be impressed no matter what. Composingï¿½s tough, and to be able to make anything bearable to listen to is already amazing.:You",
+		"Do you have any previous experience? It sounds like youï¿½re at least a little familiarï¿½I know some musicians who just play notes and are somehow unaware about music theory and all, so I wouldnï¿½t be surprised if you know at least some things.:Parker:Neutral	",
+		"Oh, well, I actually have some interest in composing, so Iï¿½ve dabbled a little but not to the extent that you have. Sometimes I just experiment with the piano, honestly.:You",
+		"Well, thatï¿½s always better than nothing! Do you only ever use your piano, or do you still sing? I know you used to sing a lot, and I honestly really liked your voice.:Parker:Neutral",
+		"Ah, thanksï¿½ but I donï¿½t sing much anymore. I honestly stopped singing after high school since Iï¿½ve been pretty dedicated to mastering the piano.:You",
+		"That makes a lot of senseï¿½ I know the feeling. I think that all of us have run out of time at some point.:Parker:Neutral",
+		"D- Donï¿½t let that get you down though! I know that youï¿½ll be just fine.:Parker:Sad",
 			":You",
-			"Thank you, (protagonist’s name). We’ll be fine.:Parker:Happy",
-			"That’s true, but we can and should always hope— I learned that it’s not always good to mope.:Parker:Neutral",
-		"I believe that everything will become what it’s meant to be.:Parker:Neutral",
-		"I hope that was a really productive session, you guys! The music room will still be open if you guys want to practice anytime during the week. Just don’t forget about opening and closing times!:Mandy:Neutral",
-		"That was really quick— I’m glad we got to see each other again though.:You:ExitMandy",
-		"Me too. It was nice to see you again! I’ll see you some other time, but hopefully we’re in the same group again sometime.:Parker:Happy",
-		"It’s getting darker— I should probably go eat.:(You):ExitParker",
-		"I can listen to Parker’s stuff on the way though.:(You)",
-		"“hope miser” on Yubie. I think I’ve seen that name before…:(You)",
-		"Nevermind, I guess. There’s nothing on Parker’s channel. Thing’s just blank all throughout.:(You)",
-		"“hope miser” shows up on different music social sites, but I guess they’re all empty too. Maybe something happened— I don’t think it’d be anything about a copyright or inappropriate strike, but who knows?:(You)",
-		"I can just ask Parker next time. I’m getting really hungry right now— not best to think on an empty stomach.:(You)"
+			"Thank you, (protagonistï¿½s name). Weï¿½ll be fine.:Parker:Happy",
+			"Thatï¿½s true, but we can and should always hopeï¿½ I learned that itï¿½s not always good to mope.:Parker:Neutral",
+		"I believe that everything will become what itï¿½s meant to be.:Parker:Neutral",
+		"I hope that was a really productive session, you guys! The music room will still be open if you guys want to practice anytime during the week. Just donï¿½t forget about opening and closing times!:Mandy:Neutral",
+		"That was really quickï¿½ Iï¿½m glad we got to see each other again though.:You:ExitMandy",
+		"Me too. It was nice to see you again! Iï¿½ll see you some other time, but hopefully weï¿½re in the same group again sometime.:Parker:Happy",
+		"Itï¿½s getting darkerï¿½ I should probably go eat.:(You):ExitParker",
+		"I can listen to Parkerï¿½s stuff on the way though.:(You)",
+		"ï¿½hope miserï¿½ on Yubie. I think Iï¿½ve seen that name beforeï¿½:(You)",
+		"Nevermind, I guess. Thereï¿½s nothing on Parkerï¿½s channel. Thingï¿½s just blank all throughout.:(You)",
+		"ï¿½hope miserï¿½ shows up on different music social sites, but I guess theyï¿½re all empty too. Maybe something happenedï¿½ I donï¿½t think itï¿½d be anything about a copyright or inappropriate strike, but who knows?:(You)",
+		"I can just ask Parker next time. Iï¿½m getting really hungry right nowï¿½ not best to think on an empty stomach.:(You)"
 	};
 	//include sound for piano, paper ruffling, bell sounds, more. need to import audio
 	int[] choice = new int[]
@@ -132,19 +132,19 @@ public class final1_2 : MonoBehaviour
 		//super hard coded choices. will fix this and make it a seperate class if we do this next year.
 		//if (Input.GetKeyDown(KeyCode.E)) { ChoiceScreen.Show("karyme exit", "parker exit"); }
 
-		if (index == 23) { ChoiceScreen.Show("No, I guess not! I’m genuinely just surprised that you remember me though.", "A little, honestly. It’s been too long since then."); }
+		if (index == 23) { ChoiceScreen.Show("No, I guess not! Iï¿½m genuinely just surprised that you remember me though.", "A little, honestly. Itï¿½s been too long since then."); }
 		if (index == 24 && ChoiceScreen.lastChoiceMade.index == 0) { Say(s[24]); changeEmotion(); index = 26; }
 		else if (index == 24 && ChoiceScreen.lastChoiceMade.index == 1) { Say(s[25]); changeEmotion(); index = 26; }
 
-		if(index == 30) { ChoiceScreen.Show("Oh, wow, that’s really cool! You must have good time management…", "A little, honestly. It’s been too long since then.Sounds like you must be quite popular."); }
+		if(index == 30) { ChoiceScreen.Show("Oh, wow, thatï¿½s really cool! You must have good time managementï¿½", "A little, honestly. Itï¿½s been too long since then.Sounds like you must be quite popular."); }
 		if (index == 31 && ChoiceScreen.lastChoiceMade.index == 0) { Say(s[31]); changeEmotion(); index = 33; }
 		else if (index == 31 && ChoiceScreen.lastChoiceMade.index == 1) { Say(s[32]); changeEmotion(); index = 33; }
 
-		if (index == 37) { ChoiceScreen.Show("“symphony of the brave” sounds quite intimidating…", "“UNKN0WN?” Sounds pretty mysterious."); }
+		if (index == 37) { ChoiceScreen.Show("ï¿½symphony of the braveï¿½ sounds quite intimidatingï¿½", "ï¿½UNKN0WN?ï¿½ Sounds pretty mysterious."); }
 		if (index == 38 && ChoiceScreen.lastChoiceMade.index == 0) { Say(s[38]); changeEmotion(); index = 40; }
 		else if (index == 38 && ChoiceScreen.lastChoiceMade.index == 1) { Say(s[39]); changeEmotion(); index = 40; }
 
-		if (index == 52) { ChoiceScreen.Show("Thanks, I believe in both of us! We’ll be fine.", "Thanks, but we can’t always tell, you know?"); }
+		if (index == 52) { ChoiceScreen.Show("Thanks, I believe in both of us! Weï¿½ll be fine.", "Thanks, but we canï¿½t always tell, you know?"); }
 		if (index == 53 && ChoiceScreen.lastChoiceMade.index == 0) { Say(s[53]); changeEmotion(); index = 55; }
 		else if (index == 53 && ChoiceScreen.lastChoiceMade.index == 1) { Say(s[54]); changeEmotion(); index = 55; }
 

@@ -48,29 +48,29 @@ public class final1_1 : MonoBehaviour
 		ParkerOut(true);
 		MandyOut(true);
 
-		//AudioManager.instance.PlaySong(music[0], 0.3f, 1f, 0.0f, true, true);
+		AudioManager.instance.PlaySong(music[0], 0.3f, 1f, 0.0f, true, true);
 	}
 
 	public string[] s = new string[]
 	{
-		"There’s a lot of people here, huh? That must mean I’m at the right event. Guess there’s the registration line.:Narrator",
+		"Thereï¿½s a lot of people here, huh? That must mean Iï¿½m at the right event. Guess thereï¿½s the registration line.:Narrator",
 		"Hi! Are you here for the music camp?:?:Happy",
-		"Um, yeah! Here, I should have the application printed out somewhere in my bag…:You",
-		"There’s no need for that! I just need to know your name so I can look for it here.:?:Neutral",
-			"Got it! My name is… (player inserts here), and my pronouns are (player inserts here).:You",
-		"Wonderful, I found you here! Here is a pamphlet, your room key, an envelope with food vouchers at the hotel… if there’s anything missing, just let me or anyone on staff know! I hope you have an amazing experience here!:?:Happy",
+		"Um, yeah! Here, I should have the application printed out somewhere in my bagï¿½:You",
+		"Thereï¿½s no need for that! I just need to know your name so I can look for it here.:?:Neutral",
+			"Got it! My name isï¿½ (player inserts here), and my pronouns are (player inserts here).:You",
+		"Wonderful, I found you here! Here is a pamphlet, your room key, an envelope with food vouchers at the hotelï¿½ if thereï¿½s anything missing, just let me or anyone on staff know! I hope you have an amazing experience here!:?:Happy",
 		"Great, thank you so much!:You:EnterMandyNeutral",
-		"I’m not regretting it so far, so maybe this was worth it. We’ll see eventually. Good to see there are some available seats.:(You)",
-		"Hey guys! I’m super glad to see you all here! Welcome to the annual MuZ music camp!:?:Happy",
-		"I’m Mandisa, but you guys can just call me Mandy. My pronouns are mainly she/her, but I don’t mind if you guys use anything else.:Mandy:Neutral",
-		"I’m sure you guys have done your reading on the camp, but just to refresh you guys, this is the MuZ music camp. We host this annually for musicians from all over to connect with one another and just jam out on the fifth and last day!:Mandy:Neutral",
-		"For how the camp goes, basically, we’ll be having different instrumental and vocal days for you guys to individually hone your talents. On the other days, we’ll generally have jamming sessions so you guys can choose who to perform with!Mandy:Neutral",
-		"Locations, times, food vouchers, and all that should have already been provided to you. Let me or any of my co-staffers know if you’re missing something, have a question, or just generally want to chat!:Mandy:Neutral",
-		"It’ll almost be noon, so we have some meals for you guys to eat before you head off to your first sessions. We hope you guys have fun!:Mandy:Heppy",
+		"Iï¿½m not regretting it so far, so maybe this was worth it. Weï¿½ll see eventually. Good to see there are some available seats.:(You)",
+		"Hey guys! Iï¿½m super glad to see you all here! Welcome to the annual MuZ music camp!:?:Happy",
+		"Iï¿½m Mandisa, but you guys can just call me Mandy. My pronouns are mainly she/her, but I donï¿½t mind if you guys use anything else.:Mandy:Neutral",
+		"Iï¿½m sure you guys have done your reading on the camp, but just to refresh you guys, this is the MuZ music camp. We host this annually for musicians from all over to connect with one another and just jam out on the fifth and last day!:Mandy:Neutral",
+		"For how the camp goes, basically, weï¿½ll be having different instrumental and vocal days for you guys to individually hone your talents. On the other days, weï¿½ll generally have jamming sessions so you guys can choose who to perform with!Mandy:Neutral",
+		"Locations, times, food vouchers, and all that should have already been provided to you. Let me or any of my co-staffers know if youï¿½re missing something, have a question, or just generally want to chat!:Mandy:Neutral",
+		"Itï¿½ll almost be noon, so we have some meals for you guys to eat before you head off to your first sessions. We hope you guys have fun!:Mandy:Heppy",
 		"Would you like a pesto pasta bowl or a club sandwich?:Staffer:ExitMandy",
 			":You",
-			"Man, this tastes good…:(You)",
-			"Man, this tastes good…:(You)"
+			"Man, this tastes goodï¿½:(You)",
+			"Man, this tastes goodï¿½:(You)"
 	};
 
 	int[] choice = new int[]
@@ -104,7 +104,8 @@ public class final1_1 : MonoBehaviour
 				if (index == s.Length)
 				{
 					DialogueSystem.instance.Close();
-					SceneManager.LoadScene(sceneName:"Day1_2"); ;
+					SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+					// SceneManager.LoadScene(sceneName:"Day1_2"); ;
 				}
 
 				if (choice.Contains(index) != true)

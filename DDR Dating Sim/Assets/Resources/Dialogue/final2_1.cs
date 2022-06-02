@@ -48,107 +48,107 @@ public class final2_1 : MonoBehaviour
 		ParkerOut(true);
 		MandyOut(true);
 
-		//AudioManager.instance.PlaySong(music[0], 0.3f, 1f, 0.0f, true, true);
+		AudioManager.instance.PlaySong(music[0], 0.3f, 1f, 0.0f, true, true);
 	}
 
 	public string[] s = new string[]
 	{
-		"On every other day, the camp basically lets all of us form groups as a chance to not only get ready for Friday’s big performance day, but to also let us “network”. But I think the networking thing is getting to people’s heads. I even saw someone handing out business cards earlier?:(You)",
-		"As for my networking day… umm, it could be better… I’m with this group where they really like my piano skills and basically they need someone to support whatever tune they feel is right. But it’s not going as well as I thought, at least for the others in the group.:(You)",
-		"Alright,from the top again please! Some of you are off key or somethin’. Just try to keep up, yea?:Main Singer",
+		"On every other day, the camp basically lets all of us form groups as a chance to not only get ready for Fridayï¿½s big performance day, but to also let us ï¿½networkï¿½. But I think the networking thing is getting to peopleï¿½s heads. I even saw someone handing out business cards earlier?:(You)",
+		"As for my networking dayï¿½ umm, it could be betterï¿½ Iï¿½m with this group where they really like my piano skills and basically they need someone to support whatever tune they feel is right. But itï¿½s not going as well as I thought, at least for the others in the group.:(You)",
+		"Alright,from the top again please! Some of you are off key or somethinï¿½. Just try to keep up, yea?:Main Singer",
 		"The others in the group look fed up with him at this point and then the guitarist starts to speak up.:Narrator",
-		"Look, we’re trying our best here! The shift in your voice keeps screwing around with the tonality!:Guitarist",
+		"Look, weï¿½re trying our best here! The shift in your voice keeps screwing around with the tonality!:Guitarist",
 		"The main singer looks back at him with a dirty look and rotates back to whisper something.:Narrator",
-		"(Whispers) Maybe you need to watch your tonality…:Main Singer",
-		"Yeah, it wasn’t much of a “whisper”, the poor guy is definitely fed up with us as indicated by the concerning vein on his head. The snarky glare from the singer also could have just pissed the guitarist off.:Narrator",
+		"(Whispers) Maybe you need to watch your tonalityï¿½:Main Singer",
+		"Yeah, it wasnï¿½t much of a ï¿½whisperï¿½, the poor guy is definitely fed up with us as indicated by the concerning vein on his head. The snarky glare from the singer also could have just pissed the guitarist off.:Narrator",
 		"LISTEN DICKHEAD! I THINK YOU NEED A LESSON IN-:Guitarist",
-		"Yeah, the guitarist is really not having it. Then one thing leads to another, the rest of the group intervenes with these two bickering and I honestly don’t want any part of it. So I just sit at my bench, hoping the music counselor would eventually come back soon.:Narrator",
-		"Hey guys, how’s the practi-:Mandy:Happy",
-		"Oh thank goodness he’s back! When he walked in to check on us, he’s just baffled at these kids that had to hold two people back from basically having a dispute over the singer being tonedeaf. I guess this wasn’t what they had in mind when they wanted us to “get along and network”. The music counselor then steps in between the group and separates them.:(You)",
+		"Yeah, the guitarist is really not having it. Then one thing leads to another, the rest of the group intervenes with these two bickering and I honestly donï¿½t want any part of it. So I just sit at my bench, hoping the music counselor would eventually come back soon.:Narrator",
+		"Hey guys, howï¿½s the practi-:Mandy:Happy",
+		"Oh thank goodness heï¿½s back! When he walked in to check on us, heï¿½s just baffled at these kids that had to hold two people back from basically having a dispute over the singer being tonedeaf. I guess this wasnï¿½t what they had in mind when they wanted us to ï¿½get along and networkï¿½. The music counselor then steps in between the group and separates them.:(You)",
 		"WOAH WOAH WOAH!...:Mandy:Sad",
 		"His sudden volume shocks us a bit. And we all just stand there, waiting for some kinda lecture about how physical violence is never okay.:Narrator",
 		"...",
 		"But then there's this really long awkward silence.:Narrator",
 		"...",
-		"That is somehow more effective in calming the rest of the group down. But then we realized how new this music counselor is as he pulls out a “rule book”?:Narrator",
-		"(muttering) How to… dispel civil disagreements? What if a physical altercation happens? Oh my gosh, these kids are looking at me?:Mandy:Sad",
+		"That is somehow more effective in calming the rest of the group down. But then we realized how new this music counselor is as he pulls out a ï¿½rule bookï¿½?:Narrator",
+		"(muttering) How toï¿½ dispel civil disagreements? What if a physical altercation happens? Oh my gosh, these kids are looking at me?:Mandy:Sad",
 		"At this rate, all of us are baffled at him. And another round of awkwardness came until I looked at the clock and noticed it was getting around to noon.:Narrator",
-		"Hey… I’m feeling kinda hungry guy–:You",
-		"Oh really!? How bout that? It’s almost lunch time! Why don’t we just pause on this… great team bonding experience and get some grub! C’mon!:Mandy:Happy",
-		"The music counselor goes to open the door and gestures to us the way out. The rest of the group look at each other and just shrug. One by one, we all start to walk out. Since I’m the last one out, the counselor tells me to lock the door.:Narrator",
-		"But as I’m walking to the door, I hear a creak behind me. I turn to see that the studio door is moving a bit, like someone just entered. I look to see if others noticed me not there, but they didn’t care.:Narrator",
-		"So I go to the door to see what’s up. I take a peek and see this girl scouting out the guitars. She seems a bit nervous yet excited. She then starts to pick a guitar, turn on the sound system,and starts tuning.:Narrator:EnterKarymeNeutral",
-		"I was going to step in, but she then pauses. I thought she heard me, but she starts to play this beautiful solo! Watching her play is like watching someone that just… knows the soul of a guitar.:Narrator",
-		"She’s so good! I just had to give her credit! Maybe if I could open the door just a tiny bit… And the door creaked… really loudly!!! By then, she stops playing at the sound of the door, and by the sight of me, standing there… like a buffoon.:Narrator",
-		"Uhh, WOW! That solo was just… PHENOMENAL! I totally wasn’t here just to stare at you for a long time, that’ll be weird, right?:You",
+		"Heyï¿½ Iï¿½m feeling kinda hungry guyï¿½:You",
+		"Oh really!? How bout that? Itï¿½s almost lunch time! Why donï¿½t we just pause on thisï¿½ great team bonding experience and get some grub! Cï¿½mon!:Mandy:Happy",
+		"The music counselor goes to open the door and gestures to us the way out. The rest of the group look at each other and just shrug. One by one, we all start to walk out. Since Iï¿½m the last one out, the counselor tells me to lock the door.:Narrator",
+		"But as Iï¿½m walking to the door, I hear a creak behind me. I turn to see that the studio door is moving a bit, like someone just entered. I look to see if others noticed me not there, but they didnï¿½t care.:Narrator",
+		"So I go to the door to see whatï¿½s up. I take a peek and see this girl scouting out the guitars. She seems a bit nervous yet excited. She then starts to pick a guitar, turn on the sound system,and starts tuning.:Narrator:EnterKarymeNeutral",
+		"I was going to step in, but she then pauses. I thought she heard me, but she starts to play this beautiful solo! Watching her play is like watching someone that justï¿½ knows the soul of a guitar.:Narrator",
+		"Sheï¿½s so good! I just had to give her credit! Maybe if I could open the door just a tiny bitï¿½ And the door creakedï¿½ really loudly!!! By then, she stops playing at the sound of the door, and by the sight of me, standing thereï¿½ like a buffoon.:Narrator",
+		"Uhh, WOW! That solo was justï¿½ PHENOMENAL! I totally wasnï¿½t here just to stare at you for a long time, thatï¿½ll be weird, right?:You",
 		"Yeah, at one point, you just gotta break eye contact or someone will notice.:?:Blush",
 			":You",
-			"Ohh uhh, okay for one, you gotta walk in as if you were just there so you don’t seem like a creep.:?:Neutral",
-			"Oh my gosh, I’M KIDDING! Hahaha!:?:Happy",
-		"But I guess I wasn’t being too discreet when you guys walked outta here. I’m guessing you already heard me practicing?:?:Neutral",
+			"Ohh uhh, okay for one, you gotta walk in as if you were just there so you donï¿½t seem like a creep.:?:Neutral",
+			"Oh my gosh, Iï¿½M KIDDING! Hahaha!:?:Happy",
+		"But I guess I wasnï¿½t being too discreet when you guys walked outta here. Iï¿½m guessing you already heard me practicing?:?:Neutral",
 		"Wait, that was just practi- that entire solo was just practice!?:You",
-		"Oh it’s just some lil tune I had in mind.:Neutral:Hapy",
-		"For a tune, it sounded so… good! It was played so beautifully. I don’t know why I’m making such a big deal out of this, but… I guess it’s a nice break from the… bombastic performances from yesterday.:You",
+		"Oh itï¿½s just some lil tune I had in mind.:Neutral:Hapy",
+		"For a tune, it sounded soï¿½ good! It was played so beautifully. I donï¿½t know why Iï¿½m making such a big deal out of this, butï¿½ I guess itï¿½s a nice break from theï¿½ bombastic performances from yesterday.:You",
 		"It sounded real bombastic right before I came in here.:Neutral",
 		"Oh no, you heard the-:You",
 		"The tonedeaf singer with the narcissism complex? Oh yeah, I definitely heard him.:?:Neutral",
-		"Yeah, I guess I’m gonna have to deal with… not so pleasant people in certain groups.:You",
+		"Yeah, I guess Iï¿½m gonna have to deal withï¿½ not so pleasant people in certain groups.:You",
 		"Groups?:?:Neutral",
-		"Well, it turns out a lot of people on orientation day actually asked me to practice with them when I duoed with a singer. Some of the groups even offered me a role for their big performance this Friday! So for the next few days, I’m gonna go around and practice with others and see how it goes!:You",
+		"Well, it turns out a lot of people on orientation day actually asked me to practice with them when I duoed with a singer. Some of the groups even offered me a role for their big performance this Friday! So for the next few days, Iï¿½m gonna go around and practice with others and see how it goes!:You",
 		"Ooh, Mr. Popular much?:?:Happy",
-		"No no no! Heh, it’s… nice to meet all these people and play with them.:You",
+		"No no no! Heh, itï¿½sï¿½ nice to meet all these people and play with them.:You",
 			":You",
-			"Oh, good for you then! But I think the networking thing is really getting to people’s heads.:?:Happy",
-			"Well… they probably liked you enough to realize that your talent is their next big shot to fame.:?:Neutral",
-		"You… could be right on that, but I don’t think it’s that ba-:You",
-		"You have no idea how many business cards I’ve seen on the floor as I was walking around camp.:?:Neutral",
-		"Okay, that is a bit much. But other than that, it’s been pretty fun! I get to meet and play with all these people! I might even make a few friends here and there.:You",
-		"You’re starting to sound like a sellout. At least you sound more convincing to go here, I’ll give you that.:?:Sad",
+			"Oh, good for you then! But I think the networking thing is really getting to peopleï¿½s heads.:?:Happy",
+			"Wellï¿½ they probably liked you enough to realize that your talent is their next big shot to fame.:?:Neutral",
+		"Youï¿½ could be right on that, but I donï¿½t think itï¿½s that ba-:You",
+		"You have no idea how many business cards Iï¿½ve seen on the floor as I was walking around camp.:?:Neutral",
+		"Okay, that is a bit much. But other than that, itï¿½s been pretty fun! I get to meet and play with all these people! I might even make a few friends here and there.:You",
+		"Youï¿½re starting to sound like a sellout. At least you sound more convincing to go here, Iï¿½ll give you that.:?:Sad",
 			":You",
-			"Well… it’s not that I don’t like the place… It’s more like I hate how you have to enter it…:?:Sad",
-			"There’s this… barrier of entry that just sucks…:?:Sad",
-		"Entry… like the entry fees?:You",
+			"Wellï¿½ itï¿½s not that I donï¿½t like the placeï¿½ Itï¿½s more like I hate how you have to enter itï¿½:?:Sad",
+			"Thereï¿½s thisï¿½ barrier of entry that just sucksï¿½:?:Sad",
+		"Entryï¿½ like the entry fees?:You",
 		"BINGO! Like how they require at least 1k to sleep here!:?Neutral",
-		"That is a bit much for a dorm… and on top of that, there’s the other 1k for the instrument insurance…:You",
+		"That is a bit much for a dormï¿½ and on top of that, thereï¿½s the other 1k for the instrument insuranceï¿½:You",
 		"Oh, real thoughtful of them right? I gotta worry about paying that much to NOT break their crap!:?:Happy",
-		"That is a lot asking from high school kids… but at least we all get to play right?:You",
-		"She then gives me this big sigh. And her expression changes to being so… discouraging.:Narrator:EnterKarymeSad",
-		"If I’m gonna be honest… I’m not even supposed to be here.:?:Sad",
+		"That is a lot asking from high school kidsï¿½ but at least we all get to play right?:You",
+		"She then gives me this big sigh. And her expression changes to being soï¿½ discouraging.:Narrator:EnterKarymeSad",
+		"If Iï¿½m gonna be honestï¿½ Iï¿½m not even supposed to be here.:?:Sad",
 			":You",
 			"Through deception! And all of my money, which was half of the entry fees by the way.:?:Sad",
-			"Well, I did…  muster up 1k to at least step foot in here! Which was, all I had really…:?:Sad",
-		"What happens if you don’t pay the rest?:You",
-		"Then they actually won’t let me play. Bummer, right? So I had to spin up a lie where my parents are coming with the money as soon as they can… but the counselors don’t really care. So I’ve been sneaking around. (whispers) And I’m not even supposed to be in here either.:?:Neutral",
-		"I never realized how expensive music can be. Even if people can afford to go here, music shouldn’t be exclusive just because people can’t afford it, right?:?:Neutral",
-		"Oh, I’m… I’m sorry they told you that. That… really doesn’t seem fair!:You",
-		"Aww, I appreciate your concern. But you don’t have to worry that much. At least they don’t spend their budget worrying about security.:?:Happy",
+			"Well, I didï¿½  muster up 1k to at least step foot in here! Which was, all I had reallyï¿½:?:Sad",
+		"What happens if you donï¿½t pay the rest?:You",
+		"Then they actually wonï¿½t let me play. Bummer, right? So I had to spin up a lie where my parents are coming with the money as soon as they canï¿½ but the counselors donï¿½t really care. So Iï¿½ve been sneaking around. (whispers) And Iï¿½m not even supposed to be in here either.:?:Neutral",
+		"I never realized how expensive music can be. Even if people can afford to go here, music shouldnï¿½t be exclusive just because people canï¿½t afford it, right?:?:Neutral",
+		"Oh, Iï¿½mï¿½ Iï¿½m sorry they told you that. Thatï¿½ really doesnï¿½t seem fair!:You",
+		"Aww, I appreciate your concern. But you donï¿½t have to worry that much. At least they donï¿½t spend their budget worrying about security.:?:Happy",
 		"Securit-:You",
-		"You have no idea how cheap their locks are. All it took was a hairpin and good luck. Too bad that kinda luck doesn’t cover expenses…:?:Neutral",
-		"I couldn’t just sit there and play down her situation.:(You)",
-		"No… don’t do that. You can’t blame yourself for something that’s out of your control. You wanted to go here, you clearly got what it takes, but you can’t afford it. If I were the guy in charge here, I’d say that kinda passion and talent… is good enough to let you in here.:You",
+		"You have no idea how cheap their locks are. All it took was a hairpin and good luck. Too bad that kinda luck doesnï¿½t cover expensesï¿½:?:Neutral",
+		"I couldnï¿½t just sit there and play down her situation.:(You)",
+		"Noï¿½ donï¿½t do that. You canï¿½t blame yourself for something thatï¿½s out of your control. You wanted to go here, you clearly got what it takes, but you canï¿½t afford it. If I were the guy in charge here, Iï¿½d say that kinda passion and talentï¿½ is good enough to let you in here.:You",
 		"She then looks up at me surprised.:Narrator:EnterKarymeBlush",
 		"AND just from what I heard, I can tell you play like no one else here. Not even the guitarist that I was playing with earlier.:You",
 		"Now he played pretty well and had the right temper when it came to that prick.:?:Happy",
-		"Heh, okay fine! But you’re not giving yourself enough credit here! You have a lot of potential... I also understand that money is a big issue for you. So, if you wanna continue playing… I’ll keep my mouth shut. I can see you’re passionate, and sometimes that counts for a lot more than what money can say.:You",
+		"Heh, okay fine! But youï¿½re not giving yourself enough credit here! You have a lot of potential... I also understand that money is a big issue for you. So, if you wanna continue playingï¿½ Iï¿½ll keep my mouth shut. I can see youï¿½re passionate, and sometimes that counts for a lot more than what money can say.:You",
 		"Right then and there, she turns to look at me with a more grateful expression. Then she sighs a huge relief.:?:Neutral",
-		"Huh. Ya know, I can tell everyone was so caught up with “networking” and “looking their best.” And… I know they mean well and they want what’s best for them… but it just seems so… tacky! But I can see why people like you. You get it. You really care! I don’t know if you’re completely okay with me lying to stay here, but if you can tolerate my playing, I suppose I can risk it all.:?:Neutral",
-		"Tolerate it!? I’d rather listen to it all day long.:You",
+		"Huh. Ya know, I can tell everyone was so caught up with ï¿½networkingï¿½ and ï¿½looking their best.ï¿½ Andï¿½ I know they mean well and they want whatï¿½s best for themï¿½ but it just seems soï¿½ tacky! But I can see why people like you. You get it. You really care! I donï¿½t know if youï¿½re completely okay with me lying to stay here, but if you can tolerate my playing, I suppose I can risk it all.:?:Neutral",
+		"Tolerate it!? Iï¿½d rather listen to it all day long.:You",
 		"She chuckles at my response. Okay, I did sound so sappy for the last minute, but she gives a nice grin, like she felt secure for once.:?:Happy",
-		"Okay well… since we established this weird bond of lies and deceit… how bout we actually take advantage of “music camp” and just practice for once?:?:Neutral",
+		"Okay wellï¿½ since we established this weird bond of lies and deceitï¿½ how bout we actually take advantage of ï¿½music campï¿½ and just practice for once?:?:Neutral",
 		"Oh yeah for sure! What do you have in mind?:You",
 		"Hmm, since apparently everyone loves you, how bout you surprise me? Try to play something else outside of your comfort zone.:?:Neutral",
-		"Hmm, always wanna keep things interesting. I’d like that in someone.:(You)",
+		"Hmm, always wanna keep things interesting. Iï¿½d like that in someone.:(You)",
 			":You",
-			"Well, I don’t wanna force ya or nothin-:?:Sad",
-			"I said something outside of your “comfort” zone, I’m not asking you to fight anything.:?:Neutral",
-		"Hey hey, I’m… getting around to the outer… zone of the comfort… that made no sense.:You",
-		"She then chortles at my stupid choice of words. And with every right to do so. But there’s just so much to play here!:Narrator:EnterKarymeHappy",
-		"It’s just that… there’s a lotta options on what you want me to play.:You",
+			"Well, I donï¿½t wanna force ya or nothin-:?:Sad",
+			"I said something outside of your ï¿½comfortï¿½ zone, Iï¿½m not asking you to fight anything.:?:Neutral",
+		"Hey hey, Iï¿½mï¿½ getting around to the outerï¿½ zone of the comfortï¿½ that made no sense.:You",
+		"She then chortles at my stupid choice of words. And with every right to do so. But thereï¿½s just so much to play here!:Narrator:EnterKarymeHappy",
+		"Itï¿½s just thatï¿½ thereï¿½s a lotta options on what you want me to play.:You",
 		"Okay, you got a point. What pairs well with a guitar?:?:Neutral",
 			":You",
-			"Ohh, that’s an… interesting combo! Yeah, let’s go with that!:?:Happy",
-			"I see we’re about to go full on Bohemian Rhapsody here, I like it!:?:Happy",
-			"Nothin’ beats a duo!:?:Happy",
+			"Ohh, thatï¿½s anï¿½ interesting combo! Yeah, letï¿½s go with that!:?:Happy",
+			"I see weï¿½re about to go full on Bohemian Rhapsody here, I like it!:?:Happy",
+			"Nothinï¿½ beats a duo!:?:Happy",
 			//gameplay
 	};
 	//include sound for piano, paper ruffling, bell sounds, more. need to import audio
@@ -164,23 +164,23 @@ public class final2_1 : MonoBehaviour
 		//super hard coded choices. will fix this and make it a seperate class if we do this next year.
 		//if (Input.GetKeyDown(KeyCode.E)) { ChoiceScreen.Show("karyme exit", "parker exit"); }
 
-		if (index == 29) { ChoiceScreen.Show("Umm… yeah that’s a good point, any other tips?", "Ohh NO! I swear I was around here and I thought I heard somethi-"); }
+		if (index == 29) { ChoiceScreen.Show("Ummï¿½ yeah thatï¿½s a good point, any other tips?", "Ohh NO! I swear I was around here and I thought I heard somethi-"); }
 		if (index == 30 && ChoiceScreen.lastChoiceMade.index == 0) { Say(s[30]); changeEmotion(); index = 32; }
 		else if (index == 30 && ChoiceScreen.lastChoiceMade.index == 1) { Say(s[31]); changeEmotion(); index = 32; }
 
-		if (index == 44) { ChoiceScreen.Show("It’s a… good feeling! To ya know, feel needed for once.", "But… I’m just not used to getting all of this attention on me."); }
+		if (index == 44) { ChoiceScreen.Show("Itï¿½s aï¿½ good feeling! To ya know, feel needed for once.", "Butï¿½ Iï¿½m just not used to getting all of this attention on me."); }
 		if (index == 45 && ChoiceScreen.lastChoiceMade.index == 0) { Say(s[45]); changeEmotion(); index = 47; }
 		else if (index == 45 && ChoiceScreen.lastChoiceMade.index == 1) { Say(s[46]); changeEmotion(); index = 47; }
 		
-		if (index == 61) { ChoiceScreen.Show("Hold on… how are you even here then?", "Wait!? You didn’t even pay for-"); }
+		if (index == 61) { ChoiceScreen.Show("Hold onï¿½ how are you even here then?", "Wait!? You didnï¿½t even pay for-"); }
 		if (index == 62 && ChoiceScreen.lastChoiceMade.index == 0) { Say(s[62]); changeEmotion(); index = 64; }
 		else if (index == 62 && ChoiceScreen.lastChoiceMade.index == 1) { Say(s[63]); changeEmotion(); index = 64; }
 
-		if (index == 85) { ChoiceScreen.Show("Hold on… how are you even here then?", "Wait!? You didn’t even pay for-"); }
+		if (index == 85) { ChoiceScreen.Show("Hold onï¿½ how are you even here then?", "Wait!? You didnï¿½t even pay for-"); }
 		if (index == 86 && ChoiceScreen.lastChoiceMade.index == 0) { Say(s[86]); changeEmotion(); index = 88; }
 		else if (index == 86 && ChoiceScreen.lastChoiceMade.index == 1) { Say(s[87]); changeEmotion(); index = 88; }
 
-		if (index == 92) { ChoiceScreen.Show("Hmm… a saxophone?", "An old fashioned piano?", "You know what’s better than one guitar? Two of them?"); }
+		if (index == 92) { ChoiceScreen.Show("Hmmï¿½ a saxophone?", "An old fashioned piano?", "You know whatï¿½s better than one guitar? Two of them?"); }
 		if (index == 93 && ChoiceScreen.lastChoiceMade.index == 0) { Say(s[93]); changeEmotion(); index = 96; }
 		else if (index == 93 && ChoiceScreen.lastChoiceMade.index == 1) { Say(s[94]); changeEmotion(); index = 96; }
 		else if (index == 93 && ChoiceScreen.lastChoiceMade.index == 2) { Say(s[95]); changeEmotion(); index = 96; }
