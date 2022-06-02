@@ -107,8 +107,7 @@ public class final1_1 : MonoBehaviour
 					SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 					// SceneManager.LoadScene(sceneName:"Day1_2"); ;
 				}
-
-				if (choice.Contains(index) != true)
+				else if (choice.Contains(index) != true)
 				{
 					
 					Say(s[index]);

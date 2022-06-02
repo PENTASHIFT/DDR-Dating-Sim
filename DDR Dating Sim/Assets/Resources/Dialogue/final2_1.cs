@@ -192,10 +192,10 @@ public class final2_1 : MonoBehaviour
 			{
 				if (index >= s.Length)
 				{
-					return;
+					DialogueSystem.instance.Close();
+					SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 				}
-
-				if (choice.Contains(index) != true)
+				else if (choice.Contains(index) != true)
 				{
 
 					Say(s[index]);
