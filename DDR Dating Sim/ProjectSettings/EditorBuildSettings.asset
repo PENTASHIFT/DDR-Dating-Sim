@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Rhythm/DDR Title.unity
+    path: Assets/Scenes/DDR Title.unity
     guid: b17c10337d2c3454b8531918c9e23b5b
   - enabled: 1
     path: Assets/Scenes/Visual Novel/Day1_1.unity
@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Visual Novel/Day1_2.unity
     guid: 6809c676e59d9264289ed723c8bc45ce
   - enabled: 1
-    path: Assets/Scenes/Visual Novel/Day2_1.unity
-    guid: 08222b5cce110b94e8784d13f472701a
+    path: Assets/Scenes/Rhythm/Rhythm Light It Up.unity
+    guid: 7dc82227441d0f048987a3adbd400c3c
   m_configObjects: {}
