@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-// TEST
-
 public class GameManager : MonoBehaviour
 {
     public AudioSource music;
