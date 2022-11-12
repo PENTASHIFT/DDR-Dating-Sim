@@ -1,34 +1,48 @@
-using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-// TODO: Allow for a way to specify where these show up on the y-axis.
 
 public class NoteGenerator : MonoBehaviour
 {
     public TextAsset csv;
     public GameObject arrow;
 
-    public void Start()
+    float beat_tempo;
+
+    void Start()
     {
+        beat_tempo = GetComponent<BeatScroller>().beat_tempo;
+
         // Read from file and generate here.
-        GenerateLeft();
-        GenerateUp();
-        GenerateDown();
-        GenerateRight();
-
-        Debug.Log(csv.ToString());
+        GenerateLeft(0.0f);
+        GenerateUp(-1.0f);
+        GenerateDown(-2.0f);
+        GenerateRight(-3.0f);
     }
 
-    void ReadFile()
+    string[,] ParseFile()
     {
-        // Read CSV file here.
+        // Parse CSV file here.
+
+        string[] lines = csv.ToString().Split('\n');
+        string[,] beatMap = new string[lines.Length - 1, 4];
+
+        for (int i = 0; i < lines.Length - 1; i++)
+        {
+            string[] vals = lines[i].Split(',');
+
+            for (int ii = 0; ii < vals.Length - 1; ii++)
+            {
+                beatMap[i, ii] = vals[ii];
+            }
+        }
+
+        return beatMap;
     }
 
-    void GenerateLeft()
+    void GenerateLeft(float y)
     {
-        Vector3 pos = new Vector3(-1.5f, 0.0f, 0.0f);
+        Vector3 pos = new Vector3(-1.5f, y, 0.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, 180.0f);
         GameObject newArrow = Instantiate(arrow, pos, Quaternion.Euler(rotation));
         newArrow.transform.parent = gameObject.transform;
@@ -36,9 +50,9 @@ public class NoteGenerator : MonoBehaviour
         newArrow.GetComponent<SpriteRenderer>().enabled = true;
     }
 
-    void GenerateUp()
+    void GenerateUp(float y)
     {
-        Vector3 pos = new Vector3(-0.5f, 0.0f, 0.0f);
+        Vector3 pos = new Vector3(-0.5f, y, 0.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, 90.0f);
         GameObject newArrow = Instantiate(arrow, pos, Quaternion.Euler(rotation));
         newArrow.transform.parent = gameObject.transform;
@@ -46,9 +60,9 @@ public class NoteGenerator : MonoBehaviour
         newArrow.GetComponent<SpriteRenderer>().enabled = true;
     }
 
-    void GenerateDown()
+    void GenerateDown(float y)
     {
-        Vector3 pos = new Vector3(0.5f, 0.0f, 0.0f);
+        Vector3 pos = new Vector3(0.5f, y, 0.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, -90.0f);
         GameObject newArrow = Instantiate(arrow, pos, Quaternion.Euler(rotation));
         newArrow.transform.parent = gameObject.transform;
@@ -57,9 +71,9 @@ public class NoteGenerator : MonoBehaviour
 
     }
 
-    void GenerateRight()
+    void GenerateRight(float y)
     {
-        Vector3 pos = new Vector3(1.5f, 0.0f, 0.0f);
+        Vector3 pos = new Vector3(1.5f, y, 0.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
         GameObject newArrow = Instantiate(arrow, pos, Quaternion.Euler(rotation));
         newArrow.transform.parent = gameObject.transform;
