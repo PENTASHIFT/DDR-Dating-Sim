@@ -2262,7 +2262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca1f8d35bdaabaa49bdef6c6c816e700, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beat_tempo: 150
+  beat_tempo: 180
   has_started: 0
 --- !u!114 &925000326
 MonoBehaviour:
@@ -2276,7 +2276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 644ac04c75b23a5408dedde5441a3f8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  csv: {fileID: 4900000, guid: b906411836a17034794d6585c600065b, type: 3}
+  csv: {fileID: 4900000, guid: 1ec5ad67d1f27e74f8982d9c58c8e0d5, type: 3}
   arrow: {fileID: 99613146}
 --- !u!4 &925000327
 Transform:

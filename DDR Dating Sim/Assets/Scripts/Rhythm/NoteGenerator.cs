@@ -13,7 +13,6 @@ public class NoteGenerator : MonoBehaviour
     void Start()
     {
         beat_tempo = GetComponent<BeatScroller>().beat_tempo;
-        Debug.Log(beat_tempo);
 
         ParseFile();
     }
@@ -21,9 +20,10 @@ public class NoteGenerator : MonoBehaviour
     void ParseFile()
     {
         // Parse CSV file here.
-
+        // CSV is format: "Note, Delta (in seconds)"
+        // -1 as "Note" is "Note Down" (handled in default).
         string[] lines = csv.ToString().Split('\n');
-        float currentYPos = 0.0f;
+        float currentYPos = 7.5f;
 
         for (int i = 0; i < lines.Length - 1; i++)
         {
@@ -31,7 +31,6 @@ public class NoteGenerator : MonoBehaviour
             string note = val[0];
             float deltaTime = (float)Convert.ToDouble(val[1]);
 
-            // TODO(josh): Don't check for specific note numbers.
             switch(note)
             {
                 case "59":
@@ -44,9 +43,7 @@ public class NoteGenerator : MonoBehaviour
                     }
                     else
                     {
-                        //currentYPos -= beat_tempo / deltaTime;
-                        //currentYPos -= beat_tempo * deltaTime;
-                        currentYPos -= (deltaTime * 4f);
+                        currentYPos -= (beat_tempo * deltaTime);
                         GenerateRight(currentYPos);
                     }
                 } break;
@@ -61,9 +58,7 @@ public class NoteGenerator : MonoBehaviour
                     }
                     else
                     {
-                        //currentYPos -= beat_tempo / deltaTime;
-                        //currentYPos -= beat_tempo * deltaTime;
-                        currentYPos -= (deltaTime * 4f);
+                        currentYPos -= (beat_tempo * deltaTime);
                         GenerateDown(currentYPos);
                     }
                 } break;
@@ -78,9 +73,7 @@ public class NoteGenerator : MonoBehaviour
                     }
                     else
                     {
-                        //currentYPos -= beat_tempo / deltaTime;
-                        //currentYPos -= beat_tempo * deltaTime;
-                        currentYPos -= (deltaTime * 4f);
+                        currentYPos -= (beat_tempo * deltaTime);
                         GenerateUp(currentYPos);
                     }
                 } break;
@@ -95,14 +88,15 @@ public class NoteGenerator : MonoBehaviour
                     }
                     else
                     {
-                        //currentYPos -= beat_tempo / deltaTime;
-                        //currentYPos -= beat_tempo * deltaTime;
-                        currentYPos -= (deltaTime * 4f);
+                        currentYPos -= (beat_tempo * deltaTime);
                         GenerateLeft(currentYPos);
                     }
                 } break;
                 
-                default: break;
+                default: 
+                {
+                    currentYPos -= (beat_tempo * deltaTime);
+                } break;
             }
         }
     }
