@@ -6,7 +6,10 @@ using UnityEngine;
 public class NoteGenerator : MonoBehaviour
 {
     public TextAsset csv;
-    public GameObject arrow;
+    public GameObject green;
+    public GameObject yellow;
+    public GameObject red;
+    public GameObject blue;
 
     float beat_tempo;
 
@@ -104,9 +107,10 @@ public class NoteGenerator : MonoBehaviour
     void GenerateLeft(float y)
     {
         Vector3 pos = new Vector3(-1.5f, y, 0.0f);
-        Vector3 rotation = new Vector3(0.0f, 0.0f, 180.0f);
-        GameObject newArrow = Instantiate(arrow, pos, Quaternion.Euler(rotation), gameObject.transform);
-        newArrow.GetComponent<NoteBehavior>().key_to_press = KeyCode.S;
+        //Vector3 rotation = new Vector3(0.0f, 0.0f, 180.0f);
+        Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
+        GameObject newArrow = Instantiate(blue, pos, Quaternion.Euler(rotation), gameObject.transform);
+        //newArrow.GetComponent<NoteBehavior>().key_to_press = KeyCode.S;
         newArrow.GetComponent<SpriteRenderer>().enabled = true;
     }
 
@@ -114,8 +118,8 @@ public class NoteGenerator : MonoBehaviour
     {
         Vector3 pos = new Vector3(-0.5f, y, 0.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, 90.0f);
-        GameObject newArrow = Instantiate(arrow, pos, Quaternion.Euler(rotation), gameObject.transform);
-        newArrow.GetComponent<NoteBehavior>().key_to_press = KeyCode.D;
+        GameObject newArrow = Instantiate(red, pos, Quaternion.Euler(rotation), gameObject.transform);
+        //newArrow.GetComponent<NoteBehavior>().key_to_press = KeyCode.D;
         newArrow.GetComponent<SpriteRenderer>().enabled = true;
     }
 
@@ -123,8 +127,8 @@ public class NoteGenerator : MonoBehaviour
     {
         Vector3 pos = new Vector3(0.5f, y, 0.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, -90.0f);
-        GameObject newArrow = Instantiate(arrow, pos, Quaternion.Euler(rotation), gameObject.transform);
-        newArrow.GetComponent<NoteBehavior>().key_to_press = KeyCode.J;
+        GameObject newArrow = Instantiate(yellow, pos, Quaternion.Euler(rotation), gameObject.transform);
+        //newArrow.GetComponent<NoteBehavior>().key_to_press = KeyCode.J;
         newArrow.GetComponent<SpriteRenderer>().enabled = true;
 
     }
@@ -133,8 +137,8 @@ public class NoteGenerator : MonoBehaviour
     {
         Vector3 pos = new Vector3(1.5f, y, 0.0f);
         Vector3 rotation = new Vector3(0.0f, 0.0f, 0.0f);
-        GameObject newArrow = Instantiate(arrow, pos, Quaternion.Euler(rotation), gameObject.transform);
-        newArrow.GetComponent<NoteBehavior>().key_to_press = KeyCode.K;
+        GameObject newArrow = Instantiate(green, pos, Quaternion.Euler(rotation), gameObject.transform);
+        //newArrow.GetComponent<NoteBehavior>().key_to_press = KeyCode.K;
         newArrow.GetComponent<SpriteRenderer>().enabled = true;
     }
 }

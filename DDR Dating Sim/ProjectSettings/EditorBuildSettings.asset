@@ -5,16 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DDR Title.unity
     guid: b17c10337d2c3454b8531918c9e23b5b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual Novel/Day1_1.unity
     guid: 72357cc5612f06b49bbeefc0dde3d101
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Visual Novel/Day1_2.unity
     guid: 6809c676e59d9264289ed723c8bc45ce
   - enabled: 1
     path: Assets/Scenes/Rhythm/Rhythm Light It Up.unity
-    guid: 7dc82227441d0f048987a3adbd400c3c
+    guid: c7c7340df4c3c43468ef81e40ddfe2a1
+  - enabled: 1
+    path: Assets/Scenes/Rhythm/Heretics Torment.unity
+    guid: 78c6b8677902d16488d85a013ac51e4f
+  - enabled: 1
+    path: Assets/Scenes/Rhythm/Dreamer's Call.unity
+    guid: 8843dee7a4136004a9f3e7ca4e303507
+  - enabled: 1
+    path: Assets/Scenes/Rhythm/Beautiful Embers.unity
+    guid: dc0982995e18932478845d1da145b7e4
   m_configObjects: {}
